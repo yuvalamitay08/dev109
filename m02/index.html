@@ -3,60 +3,74 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Table Example</title>
+  <style>
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 5px;
+      text-align: left;
+      vertical-align: top;
+    }
+    h1, h2 {
+      margin: 0;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
-  <table border="1" style="width:100%" cellpadding="5" cellspacing="0">
-   <thead>
+  <table>
+
     <tr>
-      <td colspan="4"><center><h1>HTML Table Example</h1></center></td>
-     </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="2" colspan="2">
-          <img src="https://hips.hearstapps.com/hmg-prod/images/white-kitchen-tile-floor-663e73179c3c4.jpg?crop=0.615xw:0.923xh;0.0705xw,0.0769xh&resize=1120:*" alt="Image of Kitchen" width="300">
-        </td>
-        <td><h2>Meal Planner</h2></td>
-        <td><h2>Recipe Index #:</h2></td>
-      </tr>
-      <tr></tr>
-      
-     <tr>
-       <th scope="col" colspan ="2">Week starting</th>
-       <th scope="col">2/15/2018</th>
-       <th scope="col">Instructions</th>
-      </tr>
-      <tr>
-        <td colspan="2"><b>Day of the Week</b></td>
-        <td><b>Recipe Name</b></td>
-        <td rowspan="8">Add the name of the recipe under the column Recipe Name</td>
-      </tr>
-      <tr>
-        <td colspan="2">Monday</td>
-        <td>Spinach Feta Pizza</td>
-      </tr>
-      <tr>
-        <td colspan="2">Tuesday</td>
-        <td>My New Recipe</td>
-      </tr>
-      <tr>
-        <td colspan="2">Wednesday</td>
-      </tr>
-      <tr>
-        <td colspan="2">Thursday</td>
-      </tr>
-      <tr>
-        <td colspan="2">Friday</td>
-      </tr>
-      <tr>
-        <td colspan="2">Saturday</td>
-      </tr>
-      <tr>
-        <td colspan="2">Sunday</td>
-      </tr>
-      
-    </tbody>
+      <td colspan="4">
+        <h1>HTML Table Example</h1>
+      </td>
+    </tr>
+
+    <tr>
+      <td><h2>Image</h2></td>
+      <td><h2>Meal Planner</h2></td>
+      <td><h2>Recipe Index #</h2></td>
+      <td><h2>Instructions</h2></td>
+    </tr>
+
+    <tr>
+      <th colspan="2">Week Starting</th>
+      <th>2/15/2018</th>
+      <th>Instructions</th>
+    </tr>
+
+    <tr>
+      <td colspan="2"><b>Day of the Week</b></td>
+      <td><b>Recipe Name</b></td>
+      <td rowspan="8">Add the name of the recipe under the column Recipe Name</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" rowspan="2">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/white-kitchen-tile-floor-663e73179c3c4.jpg?crop=0.615xw:0.923xh;0.0705xw,0.0769xh&resize=1120:*"
+             alt="picture of a kitchen" width="300">
+      </td>
+      <td>Spinach Feta Pizza</td>
+    </tr>
+    <tr>
+      <td>My New Recipe</td>
+    </tr>
+
+    <tr><td colspan="2">Wednesday</td><td></td></tr>
+    <tr><td colspan="2">Thursday</td><td></td></tr>
+    <tr><td colspan="2">Friday</td><td></td></tr>
+    <tr><td colspan="2">Saturday</td><td></td></tr>
+    <tr><td colspan="2">Sunday</td><td></td></tr>
   </table>
-  
-  </body>
+</body>
 </html>
