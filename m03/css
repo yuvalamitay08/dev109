@@ -4,10 +4,6 @@ body {
     padding: 0 15% 0 15%;
 }
 
-i {
-    color: darkgreen;
-}
-
 h1 {
     text-align: center;
     color: blue;
@@ -20,5 +16,9 @@ p {
     font-weight: normal;
     font-style: normal;
     font-size: 200%;
+}
+
+i {
+    color: darkgreen;
 }
 
