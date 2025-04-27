@@ -1,4 +1,4 @@
-<!--body {
+body {
   font-family: Helvetica, Arial, sans-serif;
   color: #665544;
   padding: 0 15%;
@@ -10,7 +10,7 @@ h1 {
   font-family: 'DancingScriptRegular', cursive; 
   font-size: 400%;
   text-align: center; 
-}-->
+}
 
 p{
   font-family: 'DancingScriptRegular';
@@ -18,10 +18,10 @@ p{
   font-style: normal;
 }
 
-<!--i {
+i {
   color: darkgreen;
 }
 
 .darkgreen {
   color: darkgreen;
-}-->
+}
