@@ -1,20 +1,22 @@
-body{
-  font-family: Helvetica, Arial, sans-serif;
-  color: #665544;
-  padding: 0 15% 0 15%;
+@font-face {
+    font-family: 'DancingScriptBold';
+    src: url('/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/6ab6f85a709e103ab69d7151b4b1e131/DancingScriptBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
-h1{
-  text-align: center;
-  color: blue;
-  font-family: 'Dancing Script', cursive;
-  font-size: 400%;
+@font-face {
+    font-family: 'DancingScriptRegular';
+    src: url('/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/86aadd0451f9e7dafa957e1e61dd2ed7/DancingScriptRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-p{
-  font-family: 'DancingScriptRegular';
-  font-weight: normal;
-  font-style: normal;
-  text-align: center;
+h1 {
+    font-family: 'DancingScriptBold', cursive;
+    color: blue;
+    font-size: 400%;
+    text-align: center;
 }
-i{
-  color: darkgreen;
+body, p {
+    font-family: 'DancingScriptRegular', cursive;
+    color: #665544;
 }
