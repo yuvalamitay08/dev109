@@ -1,3 +1,5 @@
+@import url('https://fontlibrary.org/en');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,18 +7,28 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  line-height: 2;
+  background-image: url('https://img.freepik.com/free-vector/flower-background-desktop-wallpaper-cute-vector_53876-136877.jpg?semt=ais_hybrid&w=740');
+  background-size: cover;
+  background-position: center;
 }
 
+/* Header */
 header {
-  background: #333;
+  background: pink;
   color: #fff;
-  padding: 10px 0;
+  padding: 0;
   text-align: center;
 }
 
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5em;
+}
+
+/* Navigation */
 nav ul {
+  background-color: purple;
   list-style: none;
   padding: 0;
 }
@@ -29,22 +41,61 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
+/* Main content */
 main {
   padding: 20px;
   text-align: center;
+}
+
+/* Feature */
+#feature {
+  background-color: #B3D098; 
+  background-image: url('https://i.pinimg.com/736x/53/e9/d3/53e9d3f0815fb7a2f81eb2c07ac51d10.jpg'); 
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 50px 0;
 }
 
 section {
   margin-bottom: 20px;
 }
 
-/* Style for feature section */
-h2 {
-  margin-bottom: 10px;
+#column-one, #column-two, #column-three {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f4f4f4;
+  border: 2px solid #ccc;
 }
 
-/* Style for columns */
-section > div {
-  display: inline-block
+#column-one {
+  background-color: #f2b8a0; 
+}
+
+#column-two {
+  background-color: #E0C3FA; 
+}
+
+#column-three {
+  background-color: #ADDFFF; 
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+}
+
+
+
+
+
+
+
