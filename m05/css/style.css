@@ -1,0 +1,66 @@
+/* Page reset and font setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #fbd674; /* Yellow background */
+  text-align: center;
+  color: #fff;
+}
+
+/* Header styles */
+header {
+  padding: 20px;
+  background-color: #fbd674;
+  color: #333;
+}
+
+.logo {
+  height: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Main content area */
+main {
+  background-color: #4c5c5c;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #333;
+  position: relative;
+}
+
+.output {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* Character image */
+.character {
+  width: 150px;
+  position: absolute;
+  bottom: -20px;
+  right: 30px;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #fff3a3;
+}
