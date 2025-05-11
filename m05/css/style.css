@@ -21,7 +21,6 @@ header {
 
 .logo {
   height: 50px;
-  display: block;
 }
 
 h1 {
@@ -57,7 +56,6 @@ main {
   position: absolute;
   bottom: -20px;
   right: 30px;
-  display: block;
 }
 
 
