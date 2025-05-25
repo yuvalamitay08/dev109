@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A3 - Rhombus Generator">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhombus Generator - Yuval</title>
+</head>
+<body>
+  <h1>Rhombus Generator - Yuval</h1>
 
+  <label for="rHeight">Height of each section:</label><br>
+  <input type="number" id="rHeight" min="1" max="50" required><br><br>
+
+  <label for="colorOdd">Color for odd positions:</label><br>
+  <select id="colorOdd" required>
+    <option value="#FF0099">Pink</option>
+    <option value="#33FF00">Green</option>
+    <option value="#660099">Purple</option>
+  </select><br><br>
+
+  <label for="colorEven">Color for even positions:</label><br>
+  <select id="colorEven" required>
+    <option value="#0000FF">Blue</option>
+    <option value="#FF0000">Red</option>
+    <option value="#FF9900">Orange</option>
+  </select><br><br>
+
+  <label for="symbol">Choose symbol:</label><br>
+  <select id="symbol" required>
+    <option value="*">*</option>
+    <option value="$">$</option>
+    <option value="@">@</option>
+  </select><br><br>
+
+  <button onclick="createRhombus()">Display Rhombus</button>
+
+  <div id="rhombusOutput" style="font-family: monospace; line-height: 1;"></div>
+
+  <script src="rhombus.js"></script>
+</body>
+</html>
