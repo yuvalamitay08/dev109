@@ -19,13 +19,13 @@ details1 += quayHotel.checkAvailability();
 var elHotel1 = document.getElementById("hotel1");
 elHotel1.textContent = details1;
 
-// Updates the rooms value for hotel2 (Park)
+// Updates the rooms value for hotel2 (park)
 var details2 = parkHotel.name + " rooms: ";
 details2 += parkHotel.checkAvailability();
 var elHotel2 = document.getElementById("hotel2");
 elHotel2.textContent = details2;
 
-// Updates the rooms value for hotel3 (Sunset)
+// Updates the rooms value for hotel3 (sunset)
 var details3 = sunsetHotel.name + " rooms: ";
 details3 += sunsetHotel.checkAvailability();
 var elHotel3 = document.getElementById("hotel3");
