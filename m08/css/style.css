@@ -14,17 +14,14 @@ body {
 }
 
 h1 {
+  background: #1e1b1e url("../images/travelworthy-logo.gif") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
-  margin: 0;
-  background-color: #1e1b1e;
-  background-image: url("../images/Hotel Logo.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  text-indent: -9999px;
+  text-indent: 100%;
+  white-space: nowrap;
   overflow: hidden;
+  margin: 0;
 }
 
 h2 {
