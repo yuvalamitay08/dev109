@@ -39,8 +39,7 @@ p + h2 {
   margin: 10px 0 0 0;
 }
 
-/* message under the logo */
-
+/* put message under the logo */
 #message {
   float: left;
   clear: left;
@@ -52,7 +51,6 @@ p + h2 {
 }
 
 /* black bar across the right hand side of the page */
-
 #info {
   background-color: #1e1b1e;
   color: #fff;
@@ -65,7 +63,7 @@ p + h2 {
   right: 15%;
 }
 
-/* details in the black bar */
+/* hotel details in the black bar */
 
 #hotelName {
   text-transform: uppercase;
@@ -132,7 +130,6 @@ p + h2 {
 }
 
 /* footer */
-
 #footer {
   position: absolute;
   bottom: 0;
