@@ -13,19 +13,19 @@ var quayHotel = new Hotel("Quay", 40, 25);
 var parkHotel = new Hotel("Park", 120, 77);
 var sunsetHotel = new Hotel("Sunset", 86, 10);
 
-// Updates the room values for hotel1 (quay)
+// Updates the rooms value for hotel1 (quay)
 var details1 = quayHotel.name + " rooms: ";
 details1 += quayHotel.checkAvailability();
 var elHotel1 = document.getElementById("hotel1");
 elHotel1.textContent = details1;
 
-// Updates the room values for hotel2 (park)
+// Updates the rooms value for hotel2 (Park)
 var details2 = parkHotel.name + " rooms: ";
 details2 += parkHotel.checkAvailability();
 var elHotel2 = document.getElementById("hotel2");
 elHotel2.textContent = details2;
 
-// Updates the room values for hotel3 (sunset)
+// Updates the rooms value for hotel3 (Sunset)
 var details3 = sunsetHotel.name + " rooms: ";
 details3 += sunsetHotel.checkAvailability();
 var elHotel3 = document.getElementById("hotel3");
