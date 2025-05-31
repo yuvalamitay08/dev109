@@ -14,12 +14,15 @@ body {
 }
 
 h1 {
-   background: #1e1b1e url("../images/Hotel-logo.gif") no-repeat center center;
-  background-size: contain; 
   width: 230px;
   height: 180px;
   float: left;
   margin: 0;
+  background-color: #1e1b1e;
+  background-image: url("../images/Hotel Logo.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   text-indent: -9999px;
   overflow: hidden;
 }
