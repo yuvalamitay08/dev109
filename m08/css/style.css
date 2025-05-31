@@ -3,7 +3,7 @@
 
 body {
   background-color: #fff;
-  background: url("../images/Travelworthy-hotel.jpg") no-repeat center center
+  background: url("../images/TravelworthyHotel.jpg") no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  background: #1e1b1e url("../images/Hotel-logo.gif") no-repeat;
+  background: #1e1b1e url("../images/HotelLogo.gif") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
