@@ -15,8 +15,9 @@ body {
 
 h1 {
   background: #1e1b1e url("../images/Hotel Logo.jpg") no-repeat;
-  width: 230px;
-  height: 180px;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
   float: left;
   text-indent: 100%;
   white-space: nowrap;
