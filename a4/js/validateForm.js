@@ -24,13 +24,13 @@ function validateForm() {
 
   // First Name
   if (!nameRegex.test(firstname)) {
-    showError("errorFirstname", "First name is required, alpha only, max 20 chars.");
+    showError("errorFirstname", "First name is required to be letters only, max 20 chars.");
     valid = false;
   }
 
   // Last Name
   if (!nameRegex.test(lastname)) {
-    showError("errorLastname", "Last name is required, alpha only, max 20 chars.");
+    showError("errorLastname", "Last name is required to be letters only, max 20 chars.");
     valid = false;
   }
 
@@ -42,7 +42,7 @@ function validateForm() {
 
   // Phone
   if (!phoneRegex.test(phone)) {
-    showError("errorPhone", "Phone must be numeric or with dashes, max 15 digits.");
+    showError("errorPhone", "Phone must be numbers only or with dashes, max 15 digits.");
     valid = false;
   }
 
@@ -54,7 +54,7 @@ function validateForm() {
 
   // Password
   if (!passwordRegex.test(password)) {
-    showError("errorPassword", "Password must be max 7 chars with upper, lower, number & special char.");
+    showError("errorPassword", "Password must be max 7 chars with upper, lower, number & a special character.");
     valid = false;
   }
 
