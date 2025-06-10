@@ -1,64 +1,75 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background: #e8f0fe; /* light pastel blue */
+  background-color: #e8f0fe; /* pastel blue */
+  font-family: "Lexend Deca", sans-serif;
   color: #333;
+  margin: 20px;
 }
 
 form {
-  background: #ffffff;
-  border: 1px solid #a0c4ff;
-  padding: 25px 30px;
-  max-width: 600px;
+  border: 1.5px solid #a0c4ff;
   border-radius: 8px;
+  background-color: #ffffff;
+  padding: 25px 30px;
   box-shadow: 0 6px 15px rgba(160, 196, 255, 0.3);
+  max-width: 600px;
+  margin: auto;
 }
 
-div {
-  margin-bottom: 15px;
+form div,
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1em 0;
 }
 
-label {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #1a237e; /* dark blue */
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="password"],
+form input,
 select,
 textarea {
   width: 100%;
   padding: 8px 10px;
-  border: 1.5px solid #90caf9; /* light blue border */
+  border: 1.5px solid #90caf9;
   border-radius: 5px;
   font-size: 1rem;
   box-sizing: border-box;
   transition: border-color 0.3s ease;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus,
-input[type="password"]:focus,
+form input:focus,
 select:focus,
 textarea:focus {
-  border-color: #1e88e5; /* brighter blue on focus */
+  border-color: #1e88e5;
   outline: none;
   box-shadow: 0 0 8px rgba(30, 136, 229, 0.4);
 }
 
-.error {
-  color: #d32f2f; /* bright red for errors */
-  font-weight: 700;
-  margin-top: 4px;
-  font-size: 0.9rem;
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #1a237e;
 }
 
-button[type="submit"] {
+.error {
+  color: #d32f2f;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+.address {
+  border-top: 3px solid;
+  color: rgb(1, 69, 17);
+  padding-top: 1em;
+}
+
+.thanku {
+  display: flex;
+  justify-content: center;
+  margin: 1.5em 0;
+}
+
+button {
   background-color: #1e88e5;
   color: white;
   border: none;
@@ -67,9 +78,14 @@ button[type="submit"] {
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 10px;
+  margin-top: 1em;
 }
 
-button[type="submit"]:hover {
+button:hover {
   background-color: #1565c0;
+}
+
+/* Optional global box-sizing reset for layout consistency */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
