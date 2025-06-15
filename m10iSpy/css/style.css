@@ -1,46 +1,40 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #e0f7fa;
+.ispyGame {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#header {
+  font-family: Mulish;
   text-align: center;
-  margin: 0;
-  padding: 20px;
 }
 
-h1 {
-  font-size: 3em;
-  color: #0277bd;
+#col-1,
+#col-2,
+#col-3 {
+  padding-right: 1.5em;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  border: 5px solid #81d4fa;
-  margin-bottom: 20px;
+#col-1 {
+  padding-left: 1.5em;
 }
 
 .checklist {
-  background: #ffffff;
-  border: 2px solid #81d4fa;
-  padding: 15px;
-  display: inline-block;
-  margin-top: 10px;
+  display: flex;
+  /* padding: 2em 4em 4em 4em; */
+  margin: 3em 0 2em 0;
+  font-family: Mulish;
+  background-color: rgb(231, 231, 249);
+  border-radius: 10px;
 }
 
-.checklist p {
-  font-size: 1.2em;
-  margin: 5px 0;
-}
-
-.line-through {
+.strike {
   text-decoration: line-through;
-  color: gray;
 }
 
-.replay {
-  margin-top: 20px;
+#button {
+  /* If display is set to flex, then it shows at all times */
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  font-family: Mulish;
 }
