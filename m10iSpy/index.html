@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>i Spy Game extra credit</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>I Spy Game</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>iSpy Game</h1>
-    <p>Click on the items in the image that match the checklist below!</p>
+  <h1>I Spy Game: Beach Edition</h1>
+  <p>Find the following items in the picture:</p>
+  <ul id="itemList">
+    <li id="umbrella">Umbrella</li>
+    <li id="ball">Beach Ball</li>
+    <li id="sunglasses">Sunglasses</li>
+    <li id="bucket">Sand Bucket</li>
+    <li id="starfish">Starfish</li>
+  </ul>
 
-    <div class="game">
-      <img src="beach-ispy.png" usemap="#beachmap" alt="Beach I Spy" />
-
-      <map name="beachmap">
-        <!-- Coordinates based on actual objects (simplified sample below) -->
-        <area shape="circle" coords="160,220,20" title="Sun" alt="Sun" />
-        <area shape="circle" coords="210,220,20" title="Beach Ball" alt="Beach Ball" />
-        <area shape="circle" coords="260,220,20" title="Hat" alt="Hat" />
-      </map>
-    </div>
-
-    <div class="checklist" id="checklist">
-      <p id="Sun">Sun</p>
-      <p id="Beach Ball">Beach Ball</p>
-      <p id="Hat">Hat</p>
-    </div>
-
-    <div class="replay" id="replay" hidden>
-      <p>Great job! Want to play again?</p>
-      <button onclick="location.reload()">Replay</button>
-    </div>
+  <!-- The image with the map -->
+  <div class="image-container">
+    <img src="089f5047-0071-4d34-9519-28d92a4b10b2.png" usemap="#gameMap" alt="I Spy Beach" id="spyImage">
+    <map name="gameMap">
+      <!-- These coordinates should be adjusted using https://www.image-map.net -->
+      <area shape="circle" coords="150,120,20" alt="Umbrella" id="umbrellaArea">
+      <area shape="circle" coords="250,300,20" alt="Beach Ball" id="ballArea">
+      <area shape="circle" coords="350,200,20" alt="Sunglasses" id="sunglassesArea">
+      <area shape="circle" coords="450,400,20" alt="Bucket" id="bucketArea">
+      <area shape="circle" coords="600,220,20" alt="Starfish" id="starfishArea">
+    </map>
   </div>
 
   <script src="script.js"></script>
