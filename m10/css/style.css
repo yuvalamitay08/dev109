@@ -1,0 +1,54 @@
+body {
+  height: 200px;
+  background-color: beige;
+}
+
+#colorsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#drawingBoard {
+  width: 95vw;
+  height: 80vh;
+  border: 1em solid white;
+}
+
+.colors {
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 0.5em;
+}
+
+.dotBlue {
+  height: 8px;
+  width: 8px;
+  border-radius: 4px; /* rounds corners */
+  background: blue;
+  position: absolute;
+}
+
+.dotPink {
+  height: 8px;
+  width: 8px;
+  border-radius: 4px; /* rounds corners */
+  background: rgb(220, 23, 177);
+  position: absolute;
+}
+
+.dotOrange {
+  height: 8px;
+  width: 8px;
+  border-radius: 4px; /* rounds corners */
+  background: rgb(255, 149, 0);
+  position: absolute;
+}
+
+.dotGreen {
+  height: 8px;
+  width: 8px;
+  border-radius: 4px; /* rounds corners */
+  background: rgb(21, 179, 0);
+  position: absolute;
+}
