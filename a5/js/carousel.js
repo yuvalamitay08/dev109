@@ -1,27 +1,27 @@
 //image Array with src, alt text, and description
 const images = [
   {
-    src: "images/img1.jpg",
+    src: "images/nature.jpg",
     alt: "Beautiful view of nature - Image 1",
     desc: "Beautiful view of nature - Image 1"
   },
   {
-    src: "images/img2.jpg",
+    src: "images/mountain.jpg",
     alt: "Mountain range during sunrise - Image 2",
     desc: "Mountain range during sunrise - Image 2"
   },
   {
-    src: "images/img3.jpg",
+    src: "images/beach.jpg",
     alt: "Calm beach with waves - Image 3",
     desc: "Calm beach with waves - Image 3"
   },
   {
-    src: "images/img4.jpg",
+    src: "images/city.jpg",
     alt: "City skyline at night - Image 4",
     desc: "City skyline at night - Image 4"
   },
   {
-    src: "images/img5.jpg",
+    src: "images/autumn.jpg",
     alt: "Forest path during autumn - Image 5",
     desc: "Forest path during autumn - Image 5"
   }
