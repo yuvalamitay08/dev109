@@ -1,40 +1,33 @@
-.ispyGame {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#header {
-  font-family: Mulish;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f8ff;
   text-align: center;
+  padding: 20px;
 }
 
-#col-1,
-#col-2,
-#col-3 {
-  padding-right: 1.5em;
+h1 {
+  font-family: 'Comic Sans MS', cursive;
+  color: #2c3e50;
 }
 
-#col-1 {
-  padding-left: 1.5em;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-.checklist {
+li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.image-container {
+  margin-top: 20px;
   display: flex;
-  /* padding: 2em 4em 4em 4em; */
-  margin: 3em 0 2em 0;
-  font-family: Mulish;
-  background-color: rgb(231, 231, 249);
-  border-radius: 10px;
+  justify-content: center;
 }
 
-.strike {
-  text-decoration: line-through;
-}
-
-#button {
-  /* If display is set to flex, then it shows at all times */
-  flex-direction: column;
-  align-items: center;
-  justify-self: center;
-  font-family: Mulish;
+img {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid #333;
 }
