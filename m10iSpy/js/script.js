@@ -1,18 +1,27 @@
-const items = ["Sun", "Beach Ball", "Hat"];
-let found = [];
+const items = ["umbrella", "ball", "sunglasses", "bucket", "starfish"];
+let foundCount = 0;
 
-document.querySelectorAll("area").forEach(area => {
-  area.addEventListener("click", function (e) {
-    e.preventDefault();
-    const name = area.title;
+function foundItem(itemName) {
+  const item = document.getElementById(itemName);
+  if (item.style.textDecoration !== "line-through") {
+    item.style.textDecoration = "line-through";
+    foundCount++;
 
-    if (!found.includes(name)) {
-      found.push(name);
-      document.getElementById(name).classList.add("line-through");
+    if (foundCount === items.length) {
+      setTimeout(() => {
+        const playAgain = confirm("Congratulations! You found all items! Play again?");
+        if (playAgain) {
+          location.reload();
+        }
+      }, 300);
     }
+  }
+}
 
-    if (found.length === items.length) {
-      document.getElementById("replay").hidden = false;
-    }
+// Attach event listeners to each <area>
+items.forEach(itemName => {
+  const area = document.getElementById(itemName + "Area");
+  area.addEventListener("click", function () {
+    foundItem(itemName);
   });
 });
